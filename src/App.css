@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Orbitron', sans-serif;
+*/
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+    background: #60492C;
+    height: 100vh;
+    color: #F9EBE0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.wrapper h2 {
+    font-weight: 700 !important;
+    color: #0D2149;
+    text-transform: uppercase;
+}
+
+.heading {
+    text-align: center;
+}
+
+.clock-controller {
+    text-align: center;
+}
+
+.controller-elements {
+    font-family: 'Orbitron', sans-serif;
+}
+
+.controller-elements button {
+    padding: 15px 10px;
+    margin: 0 20px;
+    border-radius: 4px;
+    font-size: 29px;
+    border: none;
+    cursor: pointer;
+}
+
+.controller-elements p {
+    font-size: 26px;
+    color: #0D2149;
+}
+
+.time-display-area {
+    width: 65%;
+    border: 3px solid #0D2149;
+    border-radius: 4px;
+    margin: 20px auto;
+    padding: 20px 0;
+}
+
+.time-display-area p {
+    font-size: 55px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.opn-btn {
+    padding: 14px 50px;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+    margin: 0 10px;
+}
+
+.timer-operations {
+    padding: 28px 0;
+}
+
+@media only screen and (max-width: 425px) {
+    .time-display-area p {
+        font-size: 35px;
+    }
+    .opn-btn{
+        margin: 3px 10px;
+        width: 70%;
+    }
+
+}
+@media only screen and (max-width: 768px){
+    .opn-btn{
+        margin: 5px 10px;
+
+    }
+}
