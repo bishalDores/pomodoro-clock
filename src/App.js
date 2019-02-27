@@ -46,7 +46,9 @@ class App extends Component {
 
     startTimer = () =>{
         const mins = this.state.minutes;
-        this.timer(mins*60);
+        // console.log(mins);
+        // console.log(this.state.seconds);
+        this.timer(mins*60 + this.state.seconds);
     }
 
     sessionIncrement = () =>{
